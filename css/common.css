@@ -1,2 +1,202 @@
-/* BASICS */
+@layer reset, base, components, utilities;
 
+/* -------------------- ROOT -------------------- */
+
+:root {
+
+    /* COLORS */
+
+    --color-black: #060702;
+    --color-brown: #312913;
+    --color-dark-grey: #5C5D56;
+    --color-light-grey: #7F8084; 
+    --color-orange: #BC8500;
+
+
+    /* FONTS */
+
+    --montserrat: 'montserrat', sans-serif;
+
+    /* TRANSITIONS */
+
+    /* SPACE */
+
+    --space-1: 1rem;
+    --space-2: 2rem;
+    --space-3: 4rem;
+    --space-4: 6rem;
+}
+
+/* -------------------- RESET -------------------- */
+
+@layer reset {
+    *,
+    *::before,
+    *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box; /* Inclut les paddings et bordures dans la largeur/hauteur */
+    }
+
+    html {
+        -webkit-text-size-adjust: 100%; /* Empêche le redimensionnement du texte sur iOS */
+    }
+
+    body {
+        box-sizing: border-box;
+        text-rendering: optimizeSpeed;
+    }
+
+    a {
+        color: inherit; /* Hérite de la couleur du parent */
+        text-decoration: none; /* Supprime les soulignements des liens */
+    }
+
+    ul, ol {
+        list-style: none; /* Supprime les puces des listes */
+    }
+
+    ::-webkit-scrollbar {
+        z-index: 10;
+    }
+}
+
+/* -------------------- LAYERS -------------------- */
+
+@layer base {
+
+    html {
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    body {
+        background-color: var(--color-black);
+        overflow-y: scroll;
+    }
+}
+
+@layer components {
+
+    menu {
+        position: fixed;
+        background-color: red;
+        height: var(--space-4);
+        bottom: 0;
+        left: 0;
+    }
+
+    header {
+        
+    }
+
+    header img {
+        max-width: 50%;
+    }
+
+    section {
+
+    }
+
+    footer {
+
+    }
+
+}
+
+@layer utilities {
+
+    /* ---------- FLEX ---------- */
+
+    .flex {display: flex;}
+
+    .flex-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* ---------- TEXT ---------- */
+
+    .montserrat {
+        font-family: var(--montserrat);
+    }
+
+    /* ---------- COLOR ---------- */
+
+    .color-orange {
+        color: var(--color-orange);
+    }
+
+    .color-light-grey {
+        color: var(--color-light-grey);
+    }
+
+    /* ---------- MARGES & PADDINGS ---------- */
+
+    .m-1 { margin: var(--space-1); }
+    .m-2 { margin: var(--space-2); }
+    .m-3 { margin: var(--space-3); }
+    .m-4 { margin: var(--space-4); }
+
+    .mt-1 { margin-top: var(--space-1); }
+    .mt-2 { margin-top: var(--space-2); }
+    .mt-3 { margin-top: var(--space-3); }
+    .mt-4 { margin-top: var(--space-4); }
+
+    .mb-1 { margin-bottom: var(--space-1); }
+    .mb-2 { margin-bottom: var(--space-2); }
+    .mb-3 { margin-bottom: var(--space-3); }
+    .mb-4 { margin-bottom: var(--space-4); }
+
+    .ml-1 { margin-left: var(--space-1); }
+    .ml-2 { margin-left: var(--space-2); }
+    .ml-3 { margin-left: var(--space-3); }
+    .ml-4 { margin-left: var(--space-4); }
+
+    .mr-1 { margin-right: var(--space-1); }
+    .mr-2 { margin-right: var(--space-2); }
+    .mr-3 { margin-right: var(--space-3); }
+    .mr-4 { margin-right: var(--space-4); }
+
+    .p-1 { padding: var(--space-1); }
+    .p-2 { padding: var(--space-2); }
+    .p-3 { padding: var(--space-3); }
+    .p-4 { padding: var(--space-4); }
+
+    .pt-1 { padding-top: var(--space-1); }
+    .pt-2 { padding-top: var(--space-2); }
+    .pt-3 { padding-top: var(--space-3); }
+    .pt-4 { padding-top: var(--space-4); }
+
+    .pb-1 { padding-bottom: var(--space-1); }
+    .pb-2 { padding-bottom: var(--space-2); }
+    .pb-3 { padding-bottom: var(--space-3); }
+    .pb-4 { padding-bottom: var(--space-4); }
+
+    .pl-1 { padding-left: var(--space-1); }
+    .pl-2 { padding-left: var(--space-2); }
+    .pl-3 { padding-left: var(--space-3); }
+    .pl-4 { padding-left: var(--space-4); }
+
+    .pr-1 { padding-right: var(--space-1); }
+    .pr-2 { padding-right: var(--space-2); }
+    .pr-3 { padding-right: var(--space-3); }
+    .pr-4 { padding-right: var(--space-4); }
+
+    /* ---------- DIMENSIONS ---------- */
+
+    .h-0px {height: 0px;}
+
+    .h-100vh {height: 100vh;}
+
+    .w-100vw {width: 100vw;}
+
+    .w-100pr {width: 100%;}
+
+    .dim-100 {width: 100%; height: 100%;}
+}
+
+/* -------------------- MEDIA QUERIES -------------------- */
