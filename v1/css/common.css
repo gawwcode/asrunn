@@ -104,6 +104,41 @@
 
     }
 
+    p {
+        font-family: var(--montserrat);
+        color: var(--color-light-grey)
+    }
+
+    .color-focus {
+        color: var(--color-orange);
+    }
+
+    /* HEADINGS */
+
+    h1 {
+
+    }
+
+    h2 {
+
+    }
+
+    h3 {
+
+    }
+
+    h4 {
+
+    }
+
+    h5 {
+
+    }
+
+    h6 {
+        
+    }
+
 }
 
 @layer utilities {
