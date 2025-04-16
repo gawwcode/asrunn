@@ -1,0 +1,12 @@
+#about, #website {
+    flex-direction: column;
+}
+
+#website p a {
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+section:first-of-type {
+    margin-top: 10vh;
+}
