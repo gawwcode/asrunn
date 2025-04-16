@@ -199,6 +199,12 @@
         color: var(--color-orange);
     }
 
+    .quote {
+        font-style: italic;
+        font-size: 1.5rem;
+        font-family: var(--montserrat);
+    }
+
     /* HEADINGS */
 
     h1 {
