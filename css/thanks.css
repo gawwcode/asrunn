@@ -1,0 +1,15 @@
+#thanks {
+    flex-direction: column;
+    height: 80vh;
+    width: 90vw;
+}
+
+#thanks * {
+    max-width: 80%;
+}
+
+@media screen {
+    #thanks {
+        height: 85vh;
+    }
+}
