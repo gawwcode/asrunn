@@ -23,10 +23,26 @@
     flex-direction: column;
 }
 
+#platforms {
+    flex-direction: column;
+}
+
+#platforms div {
+    flex-wrap: wrap;
+}
+
+#latest {
+    flex-direction: column;
+}
+
 #discographie {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+#socials {
     flex-direction: column;
 }
 
