@@ -21,6 +21,10 @@
     border-radius: 10px;
 }
 
+.gaww {
+    filter: invert(100%);
+}
+
 .email {
     max-width: 80%;
     text-wrap: wrap;
