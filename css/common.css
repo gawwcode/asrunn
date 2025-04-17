@@ -234,6 +234,7 @@
         color: white;
         font-family: var(--rpg);
         text-align: center;
+        letter-spacing: 0.15rem;
     }
 
     h2 {
