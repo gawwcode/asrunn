@@ -188,6 +188,7 @@
     footer {
         bottom: 0;
         background-color: var(--color-dark-grey);
+        text-align: center;
     }
 
     .button {
@@ -213,6 +214,7 @@
         font-family: var(--montserrat);
         color: var(--color-light-grey);
         max-width: 35%;
+        line-height: 1.75;
     }
 
     .color-focus {
@@ -379,12 +381,16 @@
         max-width: 75%;
     }
 
-    #bio p {
-        max-width: 90%;
+    p {
+        max-width: 70%;
     }
 
     .tourn {
         width: 90%;
+    }
+
+    #biographie img {
+        max-width: 70% !important;
     }
 
 }
@@ -396,6 +402,8 @@
         overflow-wrap: break-word;
         font-size: 1.5rem;
         margin-top: var(--space-3);
+        margin-left: auto;
+        margin-right: auto;
     }
     
     header .logo-complex {

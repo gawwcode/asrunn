@@ -1,5 +1,12 @@
+#team {
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
 .teammate {
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .teammate h3 {
@@ -8,6 +15,13 @@
 }
 
 .teammate img {
-    width: 10vw;
-    height: 10vw;
+    width: clamp(40px , 30vw , 200px);
+    height: clamp(40px , 30vw , 200px);
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.email {
+    max-width: 80%;
+    text-wrap: wrap;
 }

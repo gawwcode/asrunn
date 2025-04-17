@@ -1,0 +1,7 @@
+#biographie {
+    flex-direction: column;
+}
+
+#biographie img {
+    max-width: 35%;
+}
