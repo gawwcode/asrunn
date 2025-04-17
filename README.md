@@ -2,7 +2,7 @@
 The official ASRUNN website.
 
 To-do list : 
-- web3forms
-- team page
+- icons for buttons
+- full absolute url for web3form redirect on contact page
 
 
