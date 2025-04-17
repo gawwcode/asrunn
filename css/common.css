@@ -190,6 +190,25 @@
         background-color: var(--color-dark-grey);
     }
 
+    .button {
+        background-color: var(--color-orange);
+        color: var(--color-black);
+        border: none;
+        border-radius: 5px;
+        padding: var(--space-1);
+        cursor: pointer;
+        transition: var(--trans1);
+    }
+
+    .button:hover {
+        background-color: var(--color-dark-grey);
+        color: var(--color-orange);
+    }
+
+    .button:active {
+        transform: scale(0.9);
+    }
+
     p {
         font-family: var(--montserrat);
         color: var(--color-light-grey)

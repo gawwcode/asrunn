@@ -1,0 +1,35 @@
+#contact {
+    flex-direction: column;
+}
+
+form {
+    flex-direction: column;
+}
+
+.form-group {
+    flex-direction: column;
+}
+
+.form-label {
+    color: var(--color-light-grey);
+}
+
+input {
+    background-color: var(--color-dark-grey);
+    color: var(--color-light-grey);
+    border: 1px solid var(--color-light-grey);
+    border-radius: 5px;
+    padding: var(--space-1);
+    transition: var(--trans1);
+    min-width: 25vw;
+}
+
+textarea {
+    background-color: var(--color-dark-grey);
+    color: var(--color-light-grey);
+    border: 1px solid var(--color-light-grey);
+    border-radius: 5px;
+    padding: var(--space-1);
+    min-width: 50vw;
+    min-height: 25vh;
+}
