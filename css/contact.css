@@ -33,3 +33,12 @@ textarea {
     min-width: 50vw;
     min-height: 25vh;
 }
+
+#result {
+    color: white;
+}
+
+.result-success {
+    background-color: lab(59.15% 12.63 64.67 / 0.37);
+    outline: var(--color-orange);
+}
