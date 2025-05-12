@@ -1,6 +1,10 @@
+p {
+    max-width: 75%;
+}
+
 #mantra {
     flex-direction: row;
-    max-width: 90%;
+    max-width: 80%;
     margin: 0 auto;
     justify-content: center;
 }
