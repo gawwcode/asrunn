@@ -5,3 +5,7 @@
 #biographie img {
     max-width: 35%;
 }
+
+#interview {
+    flex-direction: column;
+}
