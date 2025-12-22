@@ -86,7 +86,7 @@
 
     @font-face {
         font-family: 'rpg';
-        src: url(../addons/rpg\ font\ 2.woff) format('woff');
+        src: url(../addons/rpg\ font\ 6.woff) format('woff');
         font-weight: normal;
         font-style: normal;
     }
@@ -257,8 +257,13 @@
         
     }
 
-    .centertext {
-        text-align: center;
+    .socials {
+        flex-direction: column;
+    }
+
+    .icon {
+        filter: invert(1) brightness(100%);
+        width: 40px;
     }
 
 }
@@ -288,6 +293,10 @@
 
     .montserrat {
         font-family: var(--montserrat);
+    }
+
+    .centertext {
+        text-align: center;
     }
 
     /* ---------- COLOR ---------- */

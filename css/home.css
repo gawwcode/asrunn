@@ -43,8 +43,8 @@
     text-align: center;
 }
 
-#socials {
-    flex-direction: column;
+.disco-display {
+    flex-direction: row;
 }
 
 .disc-contain {
@@ -115,9 +115,10 @@ header {
 
 header img {
     width: 100%;
+    height: 100%;
     object-fit: cover;
     display: block;
-    object-position: center 40%;
+    object-position: center 42%;
     animation: fadeIn 1s ease-in forwards;
 }
 
@@ -136,11 +137,6 @@ header svg {
 
 .links a:hover {
     transform: scale(1.1);
-}
-
-.icon {
-    filter: invert(1) brightness(100%);
-    width: 40px;
 }
 
 .apple-icon {

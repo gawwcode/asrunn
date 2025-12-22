@@ -4,3 +4,19 @@
 
 #interview iframe {
 }
+
+section {
+    flex-direction: column;
+}
+
+#podcast1 iframe {
+    width: 30%;
+    height: 352px;
+}
+
+@media (max-width: 1080px) {
+    #podcast1 iframe {
+        width: 70%;
+        height: 352px;
+    }
+}
