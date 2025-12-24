@@ -1,0 +1,20 @@
+@media (max-width: 900px) {
+
+    h1 {
+        padding-top: var(--space-3);
+    }
+
+    .mantra {
+        flex-direction: column;
+        max-width: 80%;
+    }
+
+    .mantra .img-contain {
+        max-width: 100%;
+    }
+
+    .mantra .text {
+        max-width: 100%;
+        padding-top: var(--space-1);
+    }
+}
